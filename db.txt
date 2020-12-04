@@ -1,0 +1,29 @@
+create table plantilla
+(
+	id int not null primary key AUTO_INCREMENT,
+	barraSuperior text,
+	textoColor text,
+	colorFondo text,
+	colorTexto text,
+	redesSociales text,
+	logo text,
+	icono text,
+	fecha TIMESTAMP
+)
+
+create table categoria
+(
+	id int not null primary key AUTO_INCREMENT,
+	categoria text not null,
+	ruta text not null,
+	fecha TIMESTAMP
+)
+
+create table subcategoria
+(
+	id int not null primary key AUTO_INCREMENT,
+	subcategoria text not null,
+	id_categoria int not null references categoria(id),
+	ruta text not null,
+	fecha TIMESTAMP
+)

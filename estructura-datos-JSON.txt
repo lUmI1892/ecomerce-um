@@ -1,0 +1,14 @@
+barra superior
+textoSuperior
+colorFondo
+colorTexto
+redesSociales
+
+red: facebook
+estilo: facebookColor
+url: http://facebook.com/6tutorialesatualcanse
+
+
+red: google
+estilo: googleColor
+url: http://google-plus.com/6tutorialesatualcanse
