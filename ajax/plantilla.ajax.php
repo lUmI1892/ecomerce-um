@@ -10,6 +10,7 @@
 			echo json_encode($respuesta);
 		}
 	}
+	
 
 
 	$objeto = new AjaxPlantilla();

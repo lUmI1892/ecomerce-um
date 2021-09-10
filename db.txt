@@ -27,3 +27,79 @@ create table subcategoria
 	ruta text not null,
 	fecha TIMESTAMP
 )
+
+create table slide
+(
+
+	id int not null primary key auto_increment,
+	imgFondo text,
+	tipoSlide text,
+	imgProducto text,
+	estiloImgProducto text,
+	estiloTextoSlide text,
+	titulo1 text,
+	titulo2 text,
+	tirulo3 text,
+	boton text,
+	url text,
+	fecha TIMESTAMP
+)
+
+create table producto
+(
+	id
+	id_categoria
+	id_subcategoria
+	tipo_producto : fisico o virtual
+	ruta
+	titulo
+	titular : breve descripcion del producto
+	descripion : descripcion total del producto
+	detalles : talla, color, dutacion..
+	precio : 0++1000
+	portada : imagen del producto
+	vistas : registro de las vistas
+	ventas : registro de las ventas
+	vistasGratis:
+	ventasGratis:
+	ofertadoPorCategoria :
+	ofertaPorSubcategoria : 
+	oferta : 0 o 1
+	precioOferta :
+	descuentoOferta :
+	imgOferta : imagen de la oferta del producto
+	nuevo : 0 o 1
+	peso : 
+	entrega : a los cuantos dias se entrega el produco si esfisico
+	fecha : fecha de creacion
+)
+
+create table compras
+(
+	id
+	i_usuario
+	id_producto
+	metodo: paypal, payu, gratis
+	direccion:
+	pais
+	fecha
+
+)
+
+create table comentarios
+(
+	id
+	id_usuario
+	id_producto
+	calificacion
+	comentario
+	fecha
+)
+
+create table deseos(
+	id
+	id_usuario
+	id_producto
+	fecha
+)
+

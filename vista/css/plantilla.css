@@ -34,6 +34,8 @@ a:visited, a:link, a:focus, a:hover, a:active{
 	color: white;
 }
 
+
+
 /*======================================
 REDES SOCIALES
 ====================================*/
@@ -117,6 +119,27 @@ REDES SOCIALES
 }
 
 /*======================================
+ERROR 404
+====================================*/
+
+.error404, .verificar{
+	color:#333;
+}
+
+/*======================================
+SCROLL UP
+====================================*/
+#scrollUp{
+	bottom:20px;
+	right: 20px;
+	width: 50px;
+	height: 50px;
+	background: url(../img/plantilla/flecha.jpg);
+}
+
+
+
+/*======================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 ====================================*/
 
@@ -125,6 +148,19 @@ ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 	.col-lg-0{
 		display: none;
 	}
+
+	.error404 h1{
+		font-size:150px;
+		text-shadow: 8px 8px 1px #dadada; 
+	}
+
+	.verificar h3{
+		margin-top: 30px;
+		font-size:110px;
+		text-shadow: 4px 4px 1px #dadada; 
+	}
+
+
 
 }
 
@@ -136,6 +172,17 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (md revisamos en 1024px)
 
 	.col-lg-0{
 		display: none;
+	}
+
+	.error404 h1{
+		font-size:100px;
+		text-shadow: 6px 6px 1px #dadada; 
+	}
+
+	.verificar h3{
+		margin-top: 30px;
+		font-size:100px;
+		text-shadow: 4px 4px 1px #dadada; 
 	}
 
 }
@@ -150,6 +197,16 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 		display: none;
 	}
 
+	.error404 h1{
+		font-size:70px;
+		text-shadow: 4px 4px 1px #dadada; 
+	}
+
+	.verificar h3{
+		margin-top: 30px;
+		font-size:100px;
+		text-shadow: 4px 4px 1px #dadada; 
+	}
 }
 
 /*======================================
@@ -160,6 +217,17 @@ MOVIL (XS revisamos en 320px)
 
 	.col-lg-0{
 		display: none;
+	}
+
+	.error404 h1{
+		font-size:50px;
+		text-shadow: 2px 2px 1px #dadada; 
+	}
+
+	.verificar h3{
+		margin-top: 30px;
+		font-size:50px;
+		text-shadow: 2px 2px 1px #dadada; 
 	}
 
 }

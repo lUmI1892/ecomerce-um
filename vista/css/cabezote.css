@@ -94,6 +94,75 @@ header #categorias hr{
 }
 
 /*======================================
+VENTANAS MODALES
+====================================*/
+.modalTitulo{
+	padding:5px 0px;
+}
+.modalTitulo h3{
+
+	text-align: center;
+	margin-top: -5px;
+	padding: 15px 0px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.modalFormulario .close{
+	
+	position: absolute;
+	right: 27px;
+	top:15px;
+	color:white;
+
+}
+
+.modalFormulario .facebook, .modalFormulario .google{
+	cursor:pointer;
+}
+
+.modalFormulario .facebook p{
+	background: #46639f;
+}
+
+.modalFormulario .google p{
+		background: #d6513e;
+}
+
+.modalFormulario .facebook p, .modalFormulario .google p{
+	
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	padding: 8px;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.modalFormulario p i{
+	margin-right: 10px;
+	font-size: 25px;
+}
+
+.modalFormulario form{
+	padding: 20px;
+}
+
+.modalFormulario form hr{
+	border:1px solid #eee;
+}
+
+.modalFormulario form input[type="email"], .modalFormulario form input[type="password"], .modalFormulario form input[type="text"]{
+	padding: 25px;
+}
+
+.modalFormulario form button[type="submit"]{
+	padding: 15px;
+}
+
+
+
+/*======================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 ====================================*/
 
@@ -108,6 +177,9 @@ ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 
 	header #carrito{
 		padding-left: 100px;
+	}
+	.modalFormulario .facebook p{
+		margin-right: -15px;
 	}
 }
 
@@ -126,6 +198,10 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (md revisamos en 1024px)
 
 	header #carrito{
 		padding-left: 70px;
+	}
+
+	.modalFormulario .facebook p{
+		margin-right: -15px;
 	}
 }
 
@@ -148,6 +224,10 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 
 	header #carrito p{
 		display: none;
+	}
+
+	.modalFormulario .facebook p{
+		margin-right: -15px;
 	}
 }
 
@@ -187,5 +267,9 @@ MOVIL (XS revisamos en 320px)
 
 	header #carrito{
 		margin: 0px;
+	}
+
+	.modalFormulario .google p{
+		margin-top: -15px;
 	}
 }
